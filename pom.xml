@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.autonubil.mxgraph</groupId>
 	<artifactId>an-mxgraph-renderer</artifactId>
-	<version>0.1.0</version>
+	<version>0.2.0</version>
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -32,6 +32,8 @@
 							<archive>
 								<manifest>
 									<mainClass>com.autonubil.mxgraph.Renderer</mainClass>
+									<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+									<addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
 								</manifest>
 							</archive>
 							<descriptorRefs>
